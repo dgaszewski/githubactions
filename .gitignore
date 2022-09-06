@@ -4,3 +4,5 @@
 
 /GitHubActionsForDotNET/GitHubActionsForDotNET/obj/Debug/net6.0
 /GitHubActionsForDotNET/GitHubActionsForDotNET/bin/Debug/net6.0
+/GitHubActionsForDotNET/GitHubActionsForDotNET.Tests/obj
+/GitHubActionsForDotNET/GitHubActionsForDotNET.Tests/bin/Debug/net6.0
