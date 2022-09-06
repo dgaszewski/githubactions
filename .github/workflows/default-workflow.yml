@@ -20,7 +20,7 @@ jobs:
     - name: Test path
       run: pwd
     - name: Restore dependencies
-      run: dotnet restore  ..\..\GitHubActionsForDotNET\
+      run: dotnet restore  ..\GitHubActionsForDotNET\
     - name: Build
       run: dotnet build --no-restore ..\..\GitHubActionsForDotNET\
     - name: Test
