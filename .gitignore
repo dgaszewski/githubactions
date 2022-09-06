@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GitHubActionsForDotNET/GitHubActionsForDotNET/obj/Debug/net6.0
+/GitHubActionsForDotNET/GitHubActionsForDotNET/bin/Debug/net6.0
