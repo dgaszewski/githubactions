@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Test path
-      run: cd
+      run: pwd
     - name: Restore dependencies
-      run: dotnet restore  ..\..\GitHubActionsForDotNET\
+      run: dotnet restore  GitHubActionsForDotNET
     - name: Build
       run: dotnet build --no-restore ..\..\GitHubActionsForDotNET\
     - name: Test
